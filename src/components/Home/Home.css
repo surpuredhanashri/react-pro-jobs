@@ -1,0 +1,42 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job img {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 10%;
+}
+
+.job {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 60%;
+  margin-bottom: 50px;
+  padding: 20px 0 20px 40px;
+  min-height: 160px;
+  max-height: max-content;
+}
+
+.view-details {
+  background-color: #8db596;
+  padding: 10px 20px;
+  width: 10%;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.description p {
+  margin-bottom: 15px;
+}
+.description {
+  width: 80%;
+}

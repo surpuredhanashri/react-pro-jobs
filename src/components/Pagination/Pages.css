@@ -1,0 +1,19 @@
+.pages {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pages div {
+  background-color: #8db596;
+  padding: 10px;
+  border: 1px solid black;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+#active {
+  background-color: white;
+  color: black;
+}
